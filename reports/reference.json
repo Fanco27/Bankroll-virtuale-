@@ -1,0 +1,22 @@
+{
+  "mode": "VIRTUAL_ONLY",
+  "model": "poisson_baseline_v1",
+  "source_sha256": "9c4e218bce7a8a280cbc58d4cb5b4a1f15f876a0a746bc441c10059e220a085c",
+  "parameters": {
+    "min_train": 100,
+    "stake_fraction": 0.01,
+    "min_edge": 0.05
+  },
+  "input_matches": 1520,
+  "predictions": 1420,
+  "virtual_bets": 1082,
+  "initial_virtual_balance": 1000.0,
+  "final_virtual_balance": 161.738976574,
+  "virtual_roi": -0.166570814,
+  "max_daily_drawdown": 0.850658629,
+  "brier": 0.601153071,
+  "log_loss": 1.004984723,
+  "paired_matches": 1419,
+  "paired_model_brier": 0.601330584,
+  "paired_market_brier": 0.581112812
+}

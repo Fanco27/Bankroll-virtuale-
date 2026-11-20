@@ -26,3 +26,7 @@ jobs:
         run: python -m unittest discover -v
       - name: Verifica interfaccia CLI
         run: python bankroll.py --help
+      - name: Backtest storico e confronto con il riferimento
+        run: |
+          python bankroll.py storico_serie_a.csv --min-train 100 --output report.json
+          python verify_history.py report.json
