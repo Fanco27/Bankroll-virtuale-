@@ -27,6 +27,6 @@ GitHub Actions esegue i test a ogni push e pull request; permette anche avvio ma
 
 ## Limiti e prossimo passo
 
-Non e ancora stato caricato o valutato uno storico reale in questo repository. Occorre aggiungere un CSV verificato, documentarne fonte e data, e avviare la validazione fuori campione. Le quote storiche non hanno un timestamp pre-partita verificato: qualsiasi ROI resta esplorativo. Il modello non considera infortuni, formazioni o dipendenza tra gol. Il Brier di mercato usa solo righe con quote: confrontarlo con quello del modello solo su un campione identico. Parametri da fissare prima della valutazione finale; nessuna ottimizzazione sul periodo di test.
+Il README documenta lo storico incluso e la verifica automatica del report. Le quote storiche non hanno un timestamp pre-partita verificato: qualsiasi ROI resta esplorativo. Il modello non considera infortuni, formazioni o dipendenza tra gol. Il Brier di mercato usa solo righe con quote: confrontarlo con quello del modello solo su un campione identico. Parametri da fissare prima della valutazione finale; nessuna ottimizzazione sul periodo di test.
 
 Repository principale: Fanco27/Bankroll-virtuale-.
